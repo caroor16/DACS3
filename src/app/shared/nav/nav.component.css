@@ -11,7 +11,7 @@
 }
 
 .nav-item:last-child .nav-link {
-    margin-bottom: 20px; /* Ajusta el espacio según sea necesario */
+    margin-bottom: 20px; 
 }
 
 .main-input {
@@ -23,7 +23,7 @@
 
 /* Estilo para los enlaces cuando están activos */
 .nav-link.active {
-    color: #8dabb3; /* Cambia el color cuando está activo (puedes elegir cualquier color) */
+    color: #8dabb3; /* Cambia el color cuando está activo */
 }
 
 /* Línea debajo del enlace activo */
