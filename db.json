@@ -1,0 +1,61 @@
+{
+    "posts": [
+      { "id": "1", "title": "a title", "views": 100 },
+      { "id": "2", "title": "another title", "views": 200 }
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    },
+    "photos": [
+        {
+          "id": "1",
+          "name": "Arroz",
+          "url": "https://cdn.pixabay.com/photo/2017/01/20/18/25/woman-1995624_1280.jpg"
+        },
+        {
+          "id": "2",
+          "name": "Jhon",
+          "url": "https://cdn.pixabay.com/photo/2015/06/22/08/40/child-817373_1280.jpg"
+        },
+        {
+          "id": "3",
+          "name": "Sofy",
+          "url": "https://cdn.pixabay.com/photo/2016/06/11/12/13/pink-hair-1450045_1280.jpg"
+        },
+        {
+          "id": "4",
+          "name": "Anne",
+          "url": "https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg"
+        },
+        {
+          "id": "5",
+          "name": "Rosario",
+          "url": "https://cdn.pixabay.com/photo/2020/10/19/09/44/woman-5667299_1280.jpg"
+        },
+        {
+          "id": "6",
+          "name": "Mary",
+          "url": "https://cdn.pixabay.com/photo/2017/09/01/21/53/sunglasses-2705642_1280.jpg"
+        },
+        {
+          "id": "7",
+          "name": "Elena",
+          "url": "https://cdn.pixabay.com/photo/2018/01/25/14/12/nature-3106213_1280.jpg"
+        },
+        {
+          "id": "8",
+          "name": "Eli",
+          "url": "https://cdn.pixabay.com/photo/2015/11/26/00/14/woman-1063100_1280.jpg"
+        },
+        {
+          "id": "9",
+          "name": "Sole",
+          "url": "https://cdn.pixabay.com/photo/2017/08/01/08/29/woman-2563491_1280.jpg"
+        }
+        
+      ]
+  }
