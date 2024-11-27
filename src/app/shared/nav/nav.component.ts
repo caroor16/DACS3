@@ -12,7 +12,6 @@ export class NavComponent {
 
   searchQuery: string = '';  // Propiedad para almacenar el valor del input
   menuVisible: boolean = false;  // Controla la visibilidad del menú desplegable
-<<<<<<< HEAD
   noInicio: boolean = true;  // Variable para verificar si está en el login /*
 
   constructor(private router: Router) {  // Usa Router para la navegación
@@ -21,11 +20,6 @@ export class NavComponent {
       this.noInicio = this.router.url !== '/login';
     });
   }
-=======
-
-  constructor(private router: Router) {}  // Usa Router para la navegación
-
->>>>>>> 1b63b214657c06aed23da781888fbc453458f8d3
   
   // Captura el valor del input de búsqueda y lo guarda en searchQuery
   onSearchInput(event: Event): void {
@@ -67,18 +61,3 @@ export class NavComponent {
 }
 
 
-<<<<<<< HEAD
-=======
-// BUSCAR FUNCIONA -- PRE PRUEBAS DE INTOLERANCIAS Y DIETAS
-  // Redirige a la ruta de búsqueda con el valor de searchQuery como parámetro
-  // buscar(): void {
-  //   if (this.searchQuery.trim()) {  // Verifica si el término de búsqueda no está vacío
-  //     // Usa router.navigate() para redirigir a la ruta de búsqueda con el parámetro
-  //     this.router.navigate(['/recetasDe'], { queryParams: { categoria: this.searchQuery } });
-  //     // Limpia el campo de búsqueda después de redirigir
-  //     this.searchQuery = '';  // Borra el valor de searchQuery
-  //   } else {
-  //     console.log('Por favor ingresa un término de búsqueda');
-  //   }
-  // }
->>>>>>> 1b63b214657c06aed23da781888fbc453458f8d3
