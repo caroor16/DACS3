@@ -19,10 +19,13 @@ export class LoginComponent implements OnInit {
     // Eliminar la clase cuando el componente se destruya, si es necesario
     document.body.classList.remove('login-page');
   }
+<<<<<<< HEAD
 
   entrar() {
     // lógica de validación del usuario 
     // Redirige a la ruta '/categoria' después de la validación
     this.router.navigate(['/categoria']);
   }
+=======
+>>>>>>> 1b63b214657c06aed23da781888fbc453458f8d3
 }

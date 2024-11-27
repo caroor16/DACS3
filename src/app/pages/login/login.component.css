@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Reset de márgenes y padding
 * {
     margin-top: 100px;
@@ -53,11 +54,50 @@
   /* Estilos para las cajas de texto */
   .textbox {
     margin-bottom: 15px;
+=======
+/* Body and layout styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Input fields */
+  .textbox {
+    margin-bottom: 20px;
+>>>>>>> 1b63b214657c06aed23da781888fbc453458f8d3
   }
   
   .textbox input {
     width: 100%;
     padding: 10px;
+<<<<<<< HEAD
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -68,12 +108,30 @@
     font-size: 14px;
     color: #007bff;
     text-decoration: none;
+=======
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  /* Forgot Password */
+  .forgot-password {
+    margin-bottom: 10px;
+  }
+  
+  .forgot-password a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+>>>>>>> 1b63b214657c06aed23da781888fbc453458f8d3
   }
   
   .forgot-password a:hover {
     text-decoration: underline;
   }
   
+<<<<<<< HEAD
   /* Estilos para el botón de 'Entrar' */
   .btn {
     width: 100%;
@@ -82,11 +140,22 @@
     color: white;
     border: none;
     border-radius: 4px;
+=======
+  /* Button styles */
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+>>>>>>> 1b63b214657c06aed23da781888fbc453458f8d3
     cursor: pointer;
     font-size: 16px;
   }
   
   .btn:hover {
+<<<<<<< HEAD
     background-color: #0056b3;
   }
   
@@ -127,3 +196,8 @@
     }
   }
   
+=======
+    background-color: #45a049;
+  }
+  
+>>>>>>> 1b63b214657c06aed23da781888fbc453458f8d3
