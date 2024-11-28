@@ -17,7 +17,7 @@ export class NavComponent {
   constructor(private router: Router) {  // Usa Router para la navegación
   // Verifica si la ruta actual es la de login
     this.router.events.subscribe(() => {
-      this.noInicio = this.router.url !== '/login';
+      this.noInicio = this.router.url !== '/login' && this.router.url !== '/signup';
     });
   }
   

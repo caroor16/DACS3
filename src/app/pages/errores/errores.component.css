@@ -1,0 +1,14 @@
+.Errores p {
+    color: black;
+    font-size: 24px; /* Aumenta el tamaño de la fuente */
+    font-weight: bold; /* Hace el texto más grueso */
+    text-align: center; /* Centra el texto horizontalmente */
+    position: fixed; /* Fija la posición en la pantalla */
+    bottom: 100px; /* del fondo */
+    left: 50%; /* Ajusta horizontalmente */
+    transform: translateX(-50%); /* Centra el texto horizontalmente */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    padding: 10px 20px; /* Añade espacio alrededor del texto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+  }

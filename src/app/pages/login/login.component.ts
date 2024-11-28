@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-login',
   standalone: true,
@@ -25,4 +26,9 @@ export class LoginComponent implements OnInit {
     // Redirige a la ruta '/categoria' después de la validación
     this.router.navigate(['/categoria']);
   }
+
+  registrate() {
+    this.router.navigate(['/signup']);
+  }
+
 }

@@ -1,129 +1,18 @@
-/* Reset de márgenes y padding
-* {
-    margin-top: 100px;
-    box-sizing: border-box;
-  } 
-  
-  /* Establecer el layout de la página
-  div {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-  }
-   */
-  /* Contenedor principal */
-  .container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height:  100vh; 
-    align-content: space-around
-  }
-  
-  /* Estilos para las columnas */
-  .login-container, .image-container {
-    flex: 1; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    height: 100%;
-  }
-  
-  /* Estilos para los elementos de la caja de login */
-  .login-box {
-    background-color: #fff;
-    padding: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
-  }
-  
-  /* Estilos para el título */
-  .login-box h2 {
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  /* Estilos para las cajas de texto */
-  .textbox {
-    margin-bottom: 15px;
-  }
-  
-  .textbox input {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-  }
-  
-  /* Estilos para el enlace de 'Olvidé la contraseña' */
-  .forgot-password a {
-    font-size: 14px;
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .forgot-password a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Estilos para el botón de 'Entrar' */
-  .btn {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .btn:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Estilos para el enlace de registro */
-  .signup p {
-    margin-top: 10px;
-  }
-  
-  .signup a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .signup a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Estilos para la columna de la imagen */
-  .img-container {
+.image-container {
     background-image: url('img/imgPp.jpg');
     background-size: cover;
-    background-position: center;
-    width: 50%; 
+    background-position: center right;
+    border-radius: 1rem 0 0 1rem; /* Para que la imagen tenga el mismo borde redondeado */
+    width: 100%;
     height: 100%;
-    
-  }
-  
-  
-  /* Respuesta móvil */
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-    }
-  
-    .login-container, .image-container {
-      width: 100%;
-      height: 50%;
-    }
-  }
-  
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-top: 0%;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+.text-a {
+    color: #096d8c;
+}
